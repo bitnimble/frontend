@@ -240,6 +240,7 @@ import { getPlayerName, truncateString } from "@/helpers/utils";
 import PlayerVolume from "@/layouts/default/PlayerOSD/PlayerVolume.vue";
 import { api } from "@/plugins/api";
 import {
+  HidePlayerOption,
   PlaybackState,
   Player,
   PLAYER_CONTROL_NONE,
