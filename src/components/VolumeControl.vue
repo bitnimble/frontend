@@ -365,7 +365,7 @@ const getVolumePlayers = function (player: Player) {
         continue;
 
       // skip if player is configured to always be hidden from UI
-      if (syncPlayer.hide_player_in_ui.includes(HidePlayerOption.ALWAYS)
+      if (syncPlayer.hide_player_in_ui.includes(HidePlayerOption.ALWAYS))
         continue;
 
       if (!items.includes(syncPlayer)) {
